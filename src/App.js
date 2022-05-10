@@ -11,7 +11,7 @@ import DecentratwitterAddress from './contractsData/decentratwitter-address.json
 import { Spinner, Navbar, Nav, Button, Container } from 'react-bootstrap'
 import logo from './logo.png'
 import Home from './Home.js'
-// import Profile from './Profile.js'
+import Profile from './Profile.js'
 import './App.css';
 
 function App() {
@@ -90,9 +90,9 @@ function App() {
               <Route path="/" element={
                 <Home contract={contract} account={account}/>
               } />
-              {/* <Route path="/profile" element={
+              <Route path="/profile" element={
                 <Profile contract={contract} />
-              } /> */}
+              } />
             </Routes>
           )}
         </div>
